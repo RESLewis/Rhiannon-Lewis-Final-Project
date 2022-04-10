@@ -1,0 +1,55 @@
+body {
+min-height: 100vh;
+background-image: linear-gradient(lightblue, deeppink);
+}
+h1 {
+font-family: "Hubballi", cursive;
+color: white;
+background-color: #000;
+padding: 10px;
+}
+img {
+border: 5px solid lightblue;
+}
+h2 {
+font-family: "Hubballi", cursive;
+color: white;
+background-color: #009e8e;
+}
+p {
+font-family: "Helvetica", san-serph;
+border: 2px solid #66ff33;
+padding: 10px;
+}
+.flexer {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#para {
+font-family: "Helvetica", san-serph;
+border: 0px solid #66ff33;
+padding: 6px;
+margin: 10px;
+}
+#red {
+background-color: #9f000f;
+}
+#videos {
+display: flex;
+justify-content: space-evenly;
+}
+
+.flex-parent-element {
+display: flex;
+width: 50%;
+}
+
+.flex-child-element:first-child {
+margin-right: 20px;
+padding: 5px;
+}
+#scores {
+	display: flex;
+	justify-content: space-evenly;
+}
